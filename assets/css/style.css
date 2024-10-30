@@ -1,0 +1,25 @@
+.wc_payment_method.payment_method_kanoo label img {
+    /*width: 100px !important;*/
+}
+
+#kano-payment-checkout-label.kano-payment-label-container {
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+#kano-payment-checkout-label.kano-payment-label-container .kano-payment-icon {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: flex-end;
+    padding-right: 16px;
+}
+
+#kano-payment-checkout-label.kano-payment-label-container .kano-payment-icon img {
+    height: 24px;
+    max-height: 24px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    -o-object-position: left;
+    object-position: left;
+}
